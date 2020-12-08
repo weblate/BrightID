@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import { SvgXml } from 'react-native-svg';
 import backArrow from '@/static/back_arrow_grey.svg';
 import { DEVICE_LARGE } from '@/utils/deviceConstants';
+import { confirmPendingConnectionThunk } from './actions/pendingConnectionThunks';
 import {
   pendingConnection_states,
   selectPendingConnectionById,
@@ -22,7 +23,7 @@ type PreviewConnectionProps = {
 };
 
 export const PreviewConnectionController = (props: PreviewConnectionProps) => {
-  const { pendingConnectionId, ratingHandler, index } = props;
+  const { pendingConnectionId, viewPagerRef, last, index } = props;
   const dispatch = useDispatch();
 
   const pendingConnection = useSelector(
@@ -46,7 +47,9 @@ export const PreviewConnectionController = (props: PreviewConnectionProps) => {
   const navigation = useNavigation();
 
   const setLevelHandler = (level: ConnectionLevel) => {
-    ratingHandler(pendingConnection.id, level, index);
+    dispatch(confirmPendingConnectionThunk(pendingConnection.id, level));
+    // if last page nav back to index 0
+    viewPagerRef.current?.setPage(last ? 0 : index + 1);
   };
 
   const abuseHandler = () => {
