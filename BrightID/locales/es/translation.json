@@ -788,8 +788,9 @@
       "showCode": "Muestra tu codigo Qr"
     },
     "header": {
-      "connections": "{{count}} / {{max}} Conexión",
-      "connections_plural": "{{count}} / {{max}} Conexiones"
+      "connections_0": "{{count}} / {{max}} Conexión",
+      "connections_1": "{{count}} / {{max}} Conexiones",
+      "connections_2": "{{count}} / {{max}} Conexiones"
     },
     "label": {
       "connectionType": "Tipo de conexión:"
@@ -802,8 +803,9 @@
       "confirmConnections": "Confirmar conexiones",
       "downloadingConnectionData": "Descargando datos de conexión",
       "expiresIn": "Expira en:",
-      "pendingConnections": "Tienes {{count}} conexión pendiente",
-      "pendingConnections_plural": "Tienes {{count}} conexiónes pendientes",
+      "pendingConnections_0": "Tienes {{count}} conexión pendiente",
+      "pendingConnections_1": "Tienes {{count}} conexiones pendientes",
+      "pendingConnections_2": "Tienes {{count}} conexiones pendientes",
       "scanCode": "<text>Hola {{name}}, escanea un codigo</text><text>haz una nueva conexión hoy</text>"
     }
   },
