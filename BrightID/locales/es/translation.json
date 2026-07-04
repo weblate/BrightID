@@ -819,7 +819,7 @@
     "error": {
       "mismatchId": "Tus conexiones de recuperación seleccionaron cuentas diferentes",
       "title": "Falló la recuperación de la cuenta",
-      "unknown": "Se ha producido un error desconocido"
+      "unknown": "Ha ocurrido un error desconocido"
     },
     "header": {
       "text": "Parte 1: Recuperar cuenta",
