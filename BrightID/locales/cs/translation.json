@@ -1,68 +1,68 @@
 {
   "achievements": {
     "auraVerification": {
-      "description": "Naučte se více o Aura",
-      "title": "Aura ověření"
+      "description": "Zjistěte více o Auře",
+      "title": "Ověření Aura"
     },
     "bituVerification": {
-      "description": "Více informací",
-      "title": "Bitu ověření"
+      "description": "Více podrobností",
+      "title": "Ověření Bitu"
     },
     "getSponsored": {
-      "description": "Buďte sponzorován za připojení aplikace která nabízí sponzorování",
-      "title": "Být sponzorován"
+      "description": "Získejte sponzorování propojením s aplikací, která ho nabízí",
+      "title": "Získejte sponzorování"
     },
     "joinMeet": {
-      "description": "Připojte se na BrightID setkání",
-      "title": "BrightID setkání"
+      "description": "Připojte se k setkání BrightID",
+      "title": "Setkání BrightID"
     },
     "linkApp": {
-      "description": "Připojte svůj BrightID s aplikací",
-      "title": "Připojit s aplikací"
+      "description": "Propojte svůj BrightID s aplikací",
+      "title": "Propojte se s aplikací"
     },
     "makeFirstConnection": {
-      "description": "Připojit jiný BrightID účet",
-      "title": "První připojení"
+      "description": "Spojte se s dalším uživatelem BrightID",
+      "title": "První spojení"
     },
     "makeThreeConnection": {
-      "description": "Připojit se s třemi BrightID uživateli",
-      "title": "Tři připojení"
+      "description": "Spojte se se třemi uživateli BrightID",
+      "title": "Tři spojení"
     },
     "notification": {
-      "message": "Dokončil jsi úkol \"{{title}}\".",
-      "title": "Úspěch dokončen!"
+      "message": "Splnili jste úkol „{{title}}“.",
+      "title": "Úspěch odemčen!"
     },
     "progress": {
-      "title": "Dokončení:"
+      "title": "Dokončeno:"
     },
     "setupBackup": {
-      "description": "Nastavte si heslo pro povolení zašifrování zálohy vašech dat",
-      "title": "Nastavit si záložní heslo"
+      "description": "Nastavte heslo pro šifrované zálohování dat",
+      "title": "Nastavit heslo pro zálohu"
     },
     "setupRecoveryConnections": {
-      "description": "Nastavte si svoje obnovovací připojení pro sociální obnovení",
-      "title": "Nastavení sociální obnovení"
+      "description": "Nastavte spojení pro obnovení účtu, abyste mohli účet obnovit pomocí kontaktů",
+      "title": "Nastavit obnovení účtu pomocí kontaktů"
     }
   },
   "addSigningKey": {
     "header": {
-      "text": "Přidat info o zařízení"
+      "text": "Informace o zařízení"
     },
-    "info": "Povolení nového zařízení na váš BrightID účet",
+    "info": "Povolte novému zařízení používat váš BrightID",
     "steps": {
-      "adding": "Přidávání podepisovacího klíče...",
-      "complete": "Podepisovací klíč přidán",
-      "downloading": "Stahování nové data o zařízení...",
-      "error": "Přidávání podepisovacího klíče se nezdařilo"
+      "adding": "Přidávání podpisového klíče...",
+      "complete": "Podpisový klíč přidán",
+      "downloading": "Stahování dat nového zařízení...",
+      "error": "Přidání podpisového klíče se nezdařilo"
     }
   },
   "alert": {
     "text": {
-      "appInfoFailure": "Nelze získat nejnovější appInfo: {{message}}. Zkuste to prosím znovu.",
-      "appNotSponsoring": "Nejste sponzorován a {{app}} nepodporuje sponzorování. Prosím najděte jinou aplikace která vás bude sponzorovat.",
+      "appInfoFailure": "Nepodařilo se získat aktuální informace o aplikaci: {{message}}. Zkuste to prosím později.",
+      "appNotSponsoring": "Zatím nemáte sponzorování a {{app}} jej neposkytuje. Vyhledejte prosím jinou aplikaci, která vás může sponzorovat.",
       "appSponsorTimeout": "Odezva pro sponzorování vypršela. {{lastResult}}",
-      "sponsorOpFailed": "Operace sponzorování se nezdařila.",
-      "sponsorOpTimeout": "Časový limit operace sponzorování vypršel."
+      "sponsorOpFailed": "Operace sponzorování se nezdařila",
+      "sponsorOpTimeout": "Časový limit operace sponzorování vypršel"
     }
   },
   "apps": {
@@ -70,58 +70,58 @@
       "button": {
         "visitWebsite": "Ano"
       },
-      "nodeError": "BrightID API pro uzel není dostupný. Zkuste to prosím znovu.",
+      "nodeError": "Rozhraní API uzlu BrightID není dostupné. Zkuste to prosím později.",
       "text": {
-        "blindSigAlreadyLinked": "Už jste se připojil s {{app}} s ID {{appUserId}}",
-        "blindSigAlreadyLinkedDifferent": "Pokusil jste se připojit s {{app}} s {{appUserId}}. Už jste se dávno připojil s {{app}} s jinou ID {{previousAppUserIds}}. Toto může vést k problémům s používáním aplikace.",
-        "callbackError": "Aplikace {{context}} nahlásila problém: {{error}}",
-        "checkWebsite": "Pro zjištění více info o {{name}}, navštivte jejich stránky!",
+        "blindSigAlreadyLinked": "Jste již propojeni s {{app}} pod ID {{appUserId}}",
+        "blindSigAlreadyLinkedDifferent": "Pokoušíte se propojit s {{app}} pomocí ID {{appUserId}}. S {{app}} jste již propojeni pod jiným ID {{previousAppUserIds}}. To může při používání aplikace způsobit potíže.",
+        "callbackError": "Aplikace {{context}} nahlásila chybu: {{error}}",
+        "checkWebsite": "Více informací o {{name}} najdete na jeho webu!",
         "invalidApp": "{{app}} není platná aplikace!",
         "invalidContext": "{{context}} není platný kontext!",
-        "linkApp": "Chcete svůj účet propojit v {{context}} do vašeho BrightID?",
-        "linkFailure": "Nezdařilo se propojit se váš účet v {{context}} do vašeho BrightID\n{{result}}",
-        "linkSigFailed": "Chyba s ověřením připojováním {{verification}} do aplikace {{appId}}. Chybová zpráva: {{msg}}",
-        "linkSuccess": "Úspěšné připojení s vaším účtem v {{context}} s vaším BrightID",
-        "missingBlindSig": "Pro aplikaci {{appId}} nebyl nalezen žádný slepý příznak. Chybí ověření: {{missingVerifications}}. Ověření jsou již propojena: {{linkedVerifications}}",
+        "linkApp": "Chcete propojit svůj účet v {{context}} se svým BrightID?",
+        "linkFailure": "Nepodařilo se propojit váš účet v {{context}} s vaším BrightID\n{{result}}",
+        "linkSigFailed": "Při propojení ověření {{verification}} s aplikací {{appId}} došlo k chybě. Chybová zpráva: {{msg}}",
+        "linkSuccess": "Váš účet v {{context}} byl úspěšně propojen s vaším BrightID",
+        "missingBlindSig": "Pro aplikaci {{appId}} nebyl nalezen žádný slepý podpis. Chybějící ověření: {{missingVerifications}}. Již propojená ověření: {{linkedVerifications}}",
         "missingVerification": "Chybí vám ověření: {{verifications}}.",
-        "notPrimary": "V současné době používáte sekundární zařízení. Propojení aplikace \"{{app}}\" vyžaduje interakci s vaším primárním zařízením. Synchronizujte se s primárním zařízením nebo proveďte propojení s primárním zařízením."
+        "notPrimary": "Používáte vedlejší zařízení. Propojení aplikace „{{app}}“ vyžaduje interakci s hlavním zařízením. Synchronizujte zařízení s hlavním zařízením nebo proveďte propojení na hlavním zařízení."
       },
       "title": {
-        "callbackError": "Chyba při aplikační callbacku",
-        "linkApp": "Chcete připojit tuto aplikaci?",
-        "linkingFailed": "Spojení s aplikací se nezdařilo"
+        "callbackError": "Chyba při zpětném volání aplikace",
+        "linkApp": "Propojit aplikaci?",
+        "linkingFailed": "Propojení aplikace se nezdařilo"
       }
     },
     "linking": {
-      "active": "Připojení s",
+      "active": "Propojování s",
       "linkWaitingV5": "Čekání na potvrzení operace propojení",
-      "notPossible": "Nelze propojit s {{app}}",
-      "notSponsored": "Nejste sponzorován.",
+      "notPossible": "Nelze se propojit s {{app}}",
+      "notSponsored": "Nemáte sponzorování.",
       "precheckApp": "Kontrola předchozí žádosti o sponzorování",
-      "prelinkCheck": "Kontrola předpokladů pro propojení",
-      "refreshingApps": "Ověeřování detaily o aplikaci",
-      "sponsorWaitingApp": "Čekání na sponzorování {{app}}",
-      "sponsorWaitingOp": "Žádání sponzorování od aplikace",
-      "sponsored": "Jste sponzorován.",
+      "prelinkCheck": "Kontrola podmínek propojení",
+      "refreshingApps": "Ověřování podrobností aplikace",
+      "sponsorWaitingApp": "Čekání, až vám {{app}} poskytne sponzorování",
+      "sponsorWaitingOp": "Žádost o sponzorování od aplikace",
+      "sponsored": "Máte sponzorování.",
       "success": "Úspěšně propojeno!",
-      "waitingV6": "Čeká se na dokončení propojování"
+      "waitingV6": "Čekání na dokončení propojování"
     },
     "text": {
       "noApps": "Žádné aplikace",
-      "notSponsored": "Nejste sponzorován.\nProsím najděte aplikaci která vás bude sponzorovat."
+      "notSponsored": "Nemáte sponzorování.\nVyhledejte níže aplikaci, která vás může sponzorovat."
     }
   },
   "channel": {
     "alert": {
       "text": {
-        "localOutdated": "Verze klienta je zastaralá - prosím aktualizujte kliena a zkuste to znovu",
-        "otherOutdated": "Verze druhého klienta je zastaralá. Autor QR kódu musí aktualizovat klienta a zkusit to znovu."
+        "localOutdated": "verze vašeho klienta je zastaralá - aktualizujte klienta a zkuste to znovu",
+        "otherOutdated": "verze druhého klienta je zastaralá - autor QR kódu musí aktualizovat klienta a zkusit to znovu"
       }
     }
   },
   "common": {
     "accessibilityLabel": {
-      "addPhoto": "Přidat fotografii",
+      "addPhoto": "přidat fotografii",
       "editPhoto": "upravit fotografii",
       "profilePhoto": "profilová fotografie",
       "userPhoto": "fotografie uživatele"
@@ -534,7 +534,7 @@
       "backupPassword": "Nastavte heslo pro šifrované zálohování dat",
       "pendingConnections_0": "Máte {{count}} nepotvrzené spojení",
       "pendingConnections_1": "Máte {{count}} nepotvrzená spojení",
-      "pendingConnections_2": "",
+      "pendingConnections_2": "Máte {{count}} nepotvrzených spojení",
       "socialRecovery": "Zvolte spojení pro obnovení účtu, abyste mohli obnovit svůj BrightID pomocí kontaktů"
     },
     "title": {
@@ -563,7 +563,7 @@
       "text": {
         "pendingConnections_0": "Máte {{count}} nepotvrzené spojení",
         "pendingConnections_1": "Máte {{count}} nepotvrzená spojení",
-        "pendingConnections_2": "",
+        "pendingConnections_2": "Máte {{count}} nepotvrzených spojení",
         "pendingGroupInvite": "{{name}} vás pozval(a) k připojení"
       },
       "title": {
@@ -705,7 +705,7 @@
     "header": {
       "connections_0": "{{count}} / {{max}} spojení",
       "connections_1": "{{count}} / {{max}} spojení",
-      "connections_2": ""
+      "connections_2": "{{count}} / {{max}} spojení"
     },
     "label": {
       "connectionType": "Typ spojení:"
@@ -720,7 +720,7 @@
       "expiresIn": "Platnost vyprší za:",
       "pendingConnections_0": "Máte {{count}} čekající spojení",
       "pendingConnections_1": "Máte {{count}} čekající spojení",
-      "pendingConnections_2": "",
+      "pendingConnections_2": "Máte {{count}} čekajících spojení",
       "scanCode": "<text>Ahoj {{name}}, naskenujte kód a</text><text>navázejte dnes nové spojení</text>"
     }
   },
@@ -749,9 +749,9 @@
     "text": {
       "additionalInfo": "Vaše spojení pro obnovení účtu budou muset tento kód naskenovat, aby vám mohla pomoci obnovit BrightID",
       "askScanning": "Ukažte tento QR kód svým spojením pro obnovení účtu",
-      "signatures_0": "{{count}} / 2 podpisy",
-      "signatures_1": "",
-      "signatures_2": ""
+      "signatures_0": "{{count}} / 2 podpisů",
+      "signatures_1": "{{count}} / 2 podpisů",
+      "signatures_2": "{{count}} / 2 podpisů"
     }
   },
   "recoveryConnections": {
