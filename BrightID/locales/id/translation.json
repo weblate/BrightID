@@ -1,1 +1,46 @@
-{}
+{
+  "achievements": {
+    "auraVerification": {
+      "description": "Pelajari lebih lanjut tentang Aura",
+      "title": "Verifikasi aura"
+    },
+    "bituVerification": {
+      "description": "Informasi lebih lanjut",
+      "title": "Verifikasi Bitu"
+    },
+    "getSponsored": {
+      "description": "Dapatkan sponsor dengan menghubungkan akun Anda ke aplikasi yang menawarkan program sponsor",
+      "title": "Dapatkan sponsor"
+    },
+    "joinMeet": {
+      "description": "Bergabunglah dalam acara BrightID",
+      "title": "BrightID meet"
+    },
+    "linkApp": {
+      "description": "Hubungkan BrightID Anda dengan sebuah aplikasi",
+      "title": "Tautkan dengan aplikasi"
+    },
+    "makeFirstConnection": {
+      "description": "Terhubung dengan pengguna BrightID lainnya",
+      "title": "Koneksi pertama"
+    },
+    "makeThreeConnection": {
+      "description": "Terhubung dengan 3 pengguna BrightID",
+      "title": "Tiga koneksi"
+    },
+    "notification": {
+      "message": "Anda telah menyelesaikan tugas “{{title}}”.",
+      "title": "Pencapaian telah dibuka!"
+    },
+    "progress": {
+      "title": "Penyelesaian:"
+    },
+    "setupBackup": {
+      "description": "Tetapkan kata sandi untuk mengaktifkan pencadangan data yang terenkripsi",
+      "title": "Tetapkan kata sandi cadangan"
+    },
+    "setupRecoveryConnections": {
+      "description": "Atur koneksi pemulihan Anda untuk mengaktifkan pemulihan akun media sosial"
+    }
+  }
+}
